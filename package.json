@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv-keywords": "^5.1.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "cra-template": "1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,8 +14,7 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "vercel-build": "CI=false npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
