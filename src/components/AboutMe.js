@@ -34,14 +34,14 @@ const AboutMe = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-black text-white font-mono relative overflow-hidden">
+    <div className="w-full  bg-black text-white font-mono relative overflow-hidden">
       {/* Matrix-like background effect */}
       <div className="absolute inset-0 opacity-10">
         <div className="matrix-bg"></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-16">
+      <div className="relative z-10 container mx-auto px-4 mt-40">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left Column - Personal Info */}
           <div className="space-y-8">

@@ -26,3 +26,17 @@
   background-size: 100% 50px;
   animation: matrix 20s linear infinite;
 }
+
+@keyframes scroll-fast {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll-fast {
+  display: flex;
+  animation: scroll-fast 8s linear infinite; /* Faster scroll speed */
+}

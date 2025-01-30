@@ -35,7 +35,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="w-full min-h-screen py-20 z-[50] px-4">
+    <div className="w-full  z-[50] px-4">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold border-b-2 border-green-500 pb-2 inline-block mb-16">
           &gt; My_Projects
