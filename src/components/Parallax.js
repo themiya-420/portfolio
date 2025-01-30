@@ -2,10 +2,13 @@ import React from "react";
 import Plx from "react-plx";
 
 //Images Imports
-import Cosmos from "../images/cosmos.jpg";
-import Earth from "../images/earth.png";
+import Cosmos from "../images/cmos.jpg";
+import Earth from "../images/erth.png";
 import Me from "../images/me.PNG";
 import Saturn from "../images/saturn.png";
+
+// Icon Imports
+import { FaGithub, FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const ParallaxZoom = () => {
   const createParallaxData = (startOffset) => [
@@ -63,7 +66,7 @@ const ParallaxZoom = () => {
         ]}
       >
         <img
-          className="absolute inset-0 w-full h-full object-cover z-30"
+          className="absolute inset-0 w-full h-full object-cover brightness-75 z-30"
           src={Earth}
           alt="earth.png"
         />
@@ -104,7 +107,7 @@ const ParallaxZoom = () => {
       >
         <div className="absolute inset-0 w-full h-full z-20">
           <div className="container mx-auto h-full flex items-center justify-center px-4">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-[900px]">
+            <div className="relative left-[6%] flex flex-col md:flex-row items-center  justify-center gap-8 w-full max-w-[900px]">
               {/* Me Section */}
               <div className="w-64 h-64 relative flex-shrink-0">
                 <img
@@ -115,20 +118,37 @@ const ParallaxZoom = () => {
               </div>
 
               {/* Saturn and Text Section */}
-              <div className="relative flex flex-col items-center md:items-start space-y-6 max-w-xl">
+              <div className="relative flex flex-col items-center justify-center  md:items-start space-y-4 max-w-xl">
                 <img
                   className="w-32 h-32 object-contain animate-float"
                   src={Saturn}
                   alt="saturn.png"
                 />
                 <div className="text-center md:text-left space-y-4">
-                  <h1 className="text-4xl md:text-6xl font-bold text-white animate-fade-in-right">
+                  <h1 className="text-4xl  font-bold text-white animate-fade-in-right">
                     Hi 👋 I am Themiya
                   </h1>
-                  <p className="text-lg md:text-xl text-gray-300 animate-fade-in-up leading-relaxed">
+                  <p className="text-md font-extralight w-[70%]  text-gray-300 animate-fade-in-up leading-relaxed">
                     I am a Passionate Software Engineer mainly focusing on Full
-                    Stack Development and Cross-platform mobile applications.
+                    Stack Development and Cross-platform mobile applications. I
+                    love Coding and Experimenting with new technologies and
+                    frameworks
                   </p>
+                  <div className="flex flex-row gap-6 text-white text-2xl">
+                    <a href="https://github.com/themiya-420">
+                      <FaGithub />
+                    </a>
+                    <a href="https://wa.me/94752171796">
+                      <FaWhatsapp />
+                    </a>
+                    <a href="https://www.facebook.com/share/15x2YGyfhc/?mibextid=wwXIfr">
+                      <FaFacebook />
+                    </a>
+
+                    <a href="https://www.instagram.com/themiya_420?igsh=cTdrYXdwY3o5azl1&utm_source=qr">
+                      <FaInstagram />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
