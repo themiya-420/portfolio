@@ -4,15 +4,13 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.4.0",
     "react-plx": "^2.1.2",
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "preinstall": "npx npm@latest install --legacy-peer-deps",
-    "install": "npx npm@latest install --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
