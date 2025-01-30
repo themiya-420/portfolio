@@ -38,11 +38,11 @@ const ParallaxZoom = () => {
           className="absolute inset-0 w-full h-full object-cover z-40 brightness-[30%]"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-6xl font-bold text-white animate-fade-in">
+          <h1 className="text-4xl md:text-6xl font-bold text-white animate-fade-in">
             Cosmos
           </h1>
         </div>
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-xl animate-fade-in z-50">
+        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-lg md:text-xl animate-fade-in z-50">
           Scroll to Reveal More
         </div>
       </Plx>
@@ -71,11 +71,10 @@ const ParallaxZoom = () => {
           alt="earth.png"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-6xl font-bold text-white animate-fade-in-up"></h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-white animate-fade-in-up"></h1>
         </div>
       </Plx>
 
-      {/* Me and Saturn Grid Layer */}
       {/* Me and Saturn Grid Layer */}
       <Plx
         className="fixed inset-0 h-screen w-full opacity-0"
@@ -91,7 +90,6 @@ const ParallaxZoom = () => {
               },
             ],
           },
-          // Remove scale property here to stop zoom effect after section appears
           {
             start: 400,
             end: 800,
@@ -107,7 +105,7 @@ const ParallaxZoom = () => {
       >
         <div className="absolute inset-0 w-full h-full z-20">
           <div className="container mx-auto h-full flex items-center justify-center px-4">
-            <div className="relative left-[6%] flex flex-col md:flex-row items-center  justify-center gap-8 w-full max-w-[900px]">
+            <div className="relative left-[6%] flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-[900px]">
               {/* Me Section */}
               <div className="w-64 h-64 relative flex-shrink-0">
                 <img
@@ -118,23 +116,23 @@ const ParallaxZoom = () => {
               </div>
 
               {/* Saturn and Text Section */}
-              <div className="relative flex flex-col items-center justify-center  md:items-start space-y-4 max-w-xl">
+              <div className="relative flex flex-col items-center justify-center md:items-start space-y-4 max-w-xl">
                 <img
                   className="w-32 h-32 object-contain animate-float"
                   src={Saturn}
                   alt="saturn.png"
                 />
                 <div className="text-center md:text-left space-y-4">
-                  <h1 className="text-4xl  font-bold text-white animate-fade-in-right">
+                  <h1 className="text-3xl md:text-4xl font-bold text-white animate-fade-in-right">
                     Hi 👋 I am Themiya
                   </h1>
-                  <p className="text-md font-extralight w-[70%]  text-gray-300 animate-fade-in-up leading-relaxed">
+                  <p className="text-md font-extralight w-[90%] md:w-[70%] text-gray-300 animate-fade-in-up leading-relaxed">
                     I am a Passionate Software Engineer mainly focusing on Full
                     Stack Development and Cross-platform mobile applications. I
                     love Coding and Experimenting with new technologies and
                     frameworks
                   </p>
-                  <div className="flex flex-row gap-6 text-white text-2xl">
+                  <div className="flex flex-row gap-6 text-white justify-center md:justify-start text-2xl">
                     <a href="https://github.com/themiya-420">
                       <FaGithub />
                     </a>
@@ -144,7 +142,6 @@ const ParallaxZoom = () => {
                     <a href="https://www.facebook.com/share/15x2YGyfhc/?mibextid=wwXIfr">
                       <FaFacebook />
                     </a>
-
                     <a href="https://www.instagram.com/themiya_420?igsh=cTdrYXdwY3o5azl1&utm_source=qr">
                       <FaInstagram />
                     </a>
