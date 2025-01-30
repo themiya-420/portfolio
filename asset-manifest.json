@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/themiya-420/portfolio/static/css/main.2bf44f19.css",
+    "main.js": "/themiya-420/portfolio/static/js/main.d198443b.js",
+    "static/media/me.PNG": "/themiya-420/portfolio/static/media/me.5d1c13090e1ba5b56eb8.PNG",
+    "static/media/erth.png": "/themiya-420/portfolio/static/media/erth.90ac200e8bbf9edae358.png",
+    "static/media/cmos.jpg": "/themiya-420/portfolio/static/media/cmos.a832011844d8ff1084e6.jpg",
+    "static/media/saturn.png": "/themiya-420/portfolio/static/media/saturn.de78e3be34329684702c.png",
+    "static/media/react.png": "/themiya-420/portfolio/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/python.png": "/themiya-420/portfolio/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/java.png": "/themiya-420/portfolio/static/media/java.5d5cffa04d820ba0644c.png",
+    "static/media/gc.png": "/themiya-420/portfolio/static/media/gc.24257c7d398ab8783468.png",
+    "static/media/flutter.png": "/themiya-420/portfolio/static/media/flutter.3f0e80564142f532e294.png",
+    "static/media/nodejs.png": "/themiya-420/portfolio/static/media/nodejs.31c0e97d5776c294d370.png",
+    "static/media/git.png": "/themiya-420/portfolio/static/media/git.987334e9f782cc505f25.png",
+    "static/media/aws.png": "/themiya-420/portfolio/static/media/aws.a59d5ca6b3b99d8d7b61.png",
+    "static/media/laravel.png": "/themiya-420/portfolio/static/media/laravel.9deb7b8accaeb576c057.png",
+    "static/media/kotlin.png": "/themiya-420/portfolio/static/media/kotlin.1dbc91985eeec0d49af7.png",
+    "index.html": "/themiya-420/portfolio/index.html",
+    "main.2bf44f19.css.map": "/themiya-420/portfolio/static/css/main.2bf44f19.css.map",
+    "main.d198443b.js.map": "/themiya-420/portfolio/static/js/main.d198443b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bf44f19.css",
+    "static/js/main.d198443b.js"
+  ]
+}
